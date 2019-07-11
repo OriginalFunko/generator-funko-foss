@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Trevor Robinson",
+      "authorEmail": "trobinson@funko.com",
+      "authorUrl": "https://github.com/tprobinson"
+    }
+  }
+}

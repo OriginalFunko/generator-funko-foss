@@ -1,0 +1,9 @@
+# ignore VCS files
+.git
+.cache
+
+# ignore all *.class files in all folders, including build root
+**/*.class
+
+# ignore all readme files
+*.md

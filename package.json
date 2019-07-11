@@ -1,0 +1,84 @@
+{
+  "name": "yeoman-funko-foss",
+  "version": "0.8.0",
+  "description": "A generator to help create repositories friendly with FOSS standards",
+  "homepage": "https://github.com/OriginalFunko/yeoman-funko-foss",
+  "author": "tprobinson (https://github.com/tprobinson)",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "foss",
+    "funko",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0",
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "execa": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "semver": "^6.2.0",
+    "semver-resolve": "^1.0.0",
+    "spdx-correct": "^3.1.0",
+    "url-parse": "^1.4.7",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OriginalFunko/yeoman-funko-foss.git"
+  },
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/OriginalFunko/yeoman-funko-foss"
+  }
+}

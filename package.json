@@ -32,7 +32,7 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "execa": "^2.0.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "semver": "^6.2.0",
     "semver-resolve": "^1.0.0",
     "spdx-correct": "^3.1.0",

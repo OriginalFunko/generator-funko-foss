@@ -36,7 +36,7 @@
     "semver": "^6.2.0",
     "semver-resolve": "^1.0.0",
     "spdx-correct": "^3.1.0",
-    "url-parse": "^1.4.7",
+    "url-parse": "^1.5.8",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
